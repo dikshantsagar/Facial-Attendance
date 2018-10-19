@@ -2,7 +2,7 @@
 <h2>An AttendanceSystem using Facial Recognition using OpenCV and Machine Learning.</h2>
 
 <b><u>Flow of Development</u></b> :
-* First tried face detection through Haarcascades in standard OpenCV.
+* First tried face detection through Haarcascades(face.xml) in standard OpenCV.
 * Processed detected face crops[] captured through OpenCV.
 * After the Dataset was prepared , tried using KNN(K-nearest neighbours) from sklearn and got nice results, with only 20         picture snaps per subject.
 * After a bit of testing the model started failing in some cases, thats when i implimented SVM(Support Vector Machine) from        sklearn for the model and got enhanced results than before.
