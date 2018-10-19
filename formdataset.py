@@ -5,7 +5,8 @@ import os
 facecascade=cv2.CascadeClassifier('face.xml')
 print("Enter the Name of the Subject")
 roll=input()
-os.makedirs(roll)
+if not os.path.exists(name):
+	os.makedirs(roll)
 
 
 def captureface(x):
