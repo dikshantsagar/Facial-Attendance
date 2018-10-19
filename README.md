@@ -28,3 +28,4 @@ the program will prompt you to enter the Subects Name, enter that and the progra
 <b>Features to be added : </b>
 * Using the realtime prediction to mark attendance of the subject on a remote server database.
 * Adding time Constraints in testing module for strict and unique attendance whilst communicating with the database to maintain attendance for different Courses in a single day.
+* and more im open to suggestions.
