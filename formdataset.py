@@ -18,7 +18,7 @@ def captureface(x):
 		faces=facecascade.detectMultiScale(gray,1.3,5)
 		for (x,y,w,h) in faces:
 			cv2.rectangle(img,(x,y),(x+w,y+h),(255,0,0),1)
-			filename = roll+"/%d.png"%d
+			filename = name+"/%d.png"%d
 			if d<x:
 				cv2.imwrite(filename,img[y:y+h,x:x+w])
 			d+=1
